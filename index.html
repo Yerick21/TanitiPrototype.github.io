@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taniti Island Desktop Wireframe</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="container nav-inner">
+        <div class="logo">Taniti Island</div>
+        <nav>
+          <a href="#plan">Plan</a>
+          <a href="#stay">Stay</a>
+          <a href="#things-to-do">Things to Do</a>
+          <a href="#transportation">Transportation</a>
+          <a href="#faqs">FAQs</a>
+        </nav>
+        <a class="nav-cta" href="#plan">Start Planning</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-layout">
+          <div>
+            <span class="eyebrow">Official Taniti tourism guide</span>
+            <h1>Discover Taniti and plan your visit.</h1>
+            <p>Explore island attractions, compare places to stay, review transportation options, and find booking links in one clear tourism website.</p>
+            <div class="button-row">
+              <a class="button" href="#plan">Start Planning Your Visit</a>
+              <a class="button secondary" href="#things-to-do">View Island Attractions</a>
+            </div>
+          </div>
+          <div class="hero-image-box">Large island image placeholder<br>Beach, harbor, local attractions, and visitors exploring Taniti</div>
+        </div>
+      </section>
+
+      <div class="planner-wrap">
+        <div class="container">
+          <div class="planner">
+            <div class="field">
+              <label>How will you arrive?</label>
+              <div class="fake-input">Air or cruise ship</div>
+            </div>
+            <div class="field">
+              <label>Arrival date</label>
+              <div class="fake-input">Select date</div>
+            </div>
+            <div class="field">
+              <label>Length of stay</label>
+              <div class="fake-input">Select number of days</div>
+            </div>
+            <div class="field">
+              <label>Travel group</label>
+              <div class="fake-input">Solo, couple, family, or group</div>
+            </div>
+            <button class="planner-button" onclick="location.href='#trip-plans'">Find Options</button>
+          </div>
+        </div>
+      </div>
+
+      <section id="plan" class="flow-section">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <h2>Plan your visit in five clear steps</h2>
+              <p>The new design separates tourist information into clear sections so visitors do not have to sort through one crowded page.</p>
+            </div>
+          </div>
+          <div class="trip-flow">
+            <div class="flow-step">1. Choose Arrival</div>
+            <div class="flow-step">2. Compare Lodging</div>
+            <div class="flow-step">3. Review Transportation</div>
+            <div class="flow-step">4. Explore Attractions</div>
+            <div class="flow-step">5. Use Booking Links</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stay">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <h2>Clear navigation for tourist information</h2>
+              <p>The main website sections match what tourists need most: accommodations, transportation, attractions, dining, and travel help.</p>
+            </div>
+          </div>
+          <div class="desktop-grid">
+            <div class="card">
+              <div class="card-label">Accommodations</div>
+              <h3>Places to Stay</h3>
+              <p>Hotels, beach houses, condos, private homes, and bed and breakfast options with booking links.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Transportation</div>
+              <h3>Getting Around Taniti</h3>
+              <p>Airport travel, cruise arrival, rental cars, hotel shuttles, buses, taxis, and public transportation.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Attractions</div>
+              <h3>Things to Do</h3>
+              <p>Beaches, tours, cultural sites, local events, family activities, and island attractions.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Visitor Info</div>
+              <h3>Travel FAQs</h3>
+              <p>Answers about safety, weather, currency, arrival information, mobile access, and first-time visitor needs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="things-to-do">
+        <div class="container split-layout">
+          <div>
+            <h2>Find attractions and options by location</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; line-height: 1.65; color: #4b5c60;">A map section helps visitors see where hotels, attractions, restaurants, transportation stops, the airport, and the cruise port are located.</p>
+            <div class="stacked-list" style="margin-top: 26px;">
+              <div class="list-item"><strong>Near your stay</strong>Show nearby restaurants, beaches, activities, and attractions.</div>
+              <div class="list-item"><strong>Transportation options</strong>Show airport, cruise port, shuttles, rental cars, taxis, buses, and public transit.</div>
+              <div class="list-item"><strong>Activity filters</strong>Help visitors sort options by families, couples, repeat visitors, first-time visitors, or short stays.</div>
+            </div>
+          </div>
+          <div class="map-placeholder">Interactive map placeholder<br>Airport | Cruise Port | Lodging | Beaches | Restaurants | Attractions | Transportation</div>
+        </div>
+      </section>
+
+      <section id="transportation">
+        <div class="container split-layout">
+          <div>
+            <h2>Compare transportation options</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; line-height: 1.65; color: #4b5c60;">A transportation section helps visitors compare options for getting to and around the island.</p>
+            <div class="stacked-list" style="margin-top: 26px;">
+              <div class="list-item"><strong>Getting to Taniti</strong>Show transportation options for arriving by air or cruise ship.</div>
+              <div class="list-item"><strong>Getting around Taniti</strong>Show transportation options for rental cars, hotel shuttles, taxis, buses, and public transit.</div>
+              <div class="list-item"><strong>Booking links</strong>Provide booking links for rental cars, shuttles, taxis, and public transit.</div>
+            </div>
+          </div>
+          <div class="map-placeholder">Transportation map placeholder<br>Airport | Cruise Port | Rental Cars | Shuttles | Taxis | Buses | Public Transit</div>
+        </div>
+      </section>
+
+      <section id ="trip-plans">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <h2>Suggested trip plans</h2>
+              <p>Trip plans help prospective tourists quickly find activities and booking options based on their reason for visiting.</p>
+            </div>
+          </div>
+          <div class="itinerary-grid">
+            <div class="itinerary-card">
+              <div class="image-placeholder"></div>
+              <h3>3-Day First-Time Visit</h3>
+              <p>Best for visitors who want major attractions, simple transportation, and essential travel information.</p>
+            </div>
+            <div class="itinerary-card">
+              <div class="image-placeholder"></div>
+              <h3>5-Day Island Explorer</h3>
+              <p>Best for visitors who want beaches, cultural activities, restaurants, tours, and time to relax.</p>
+            </div>
+            <div class="itinerary-card">
+              <div class="image-placeholder"></div>
+              <h3>Family Vacation Plan</h3>
+              <p>Best for groups who need lodging, transportation, attractions, dining, and booking information in one place.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <h2>Booking links</h2>
+              <p>Visitors can use this section to find a placeholder booking options for lodging, transportation, tours, and activities.</p>
+
+            </div>
+          </div>
+
+
+          <div class = "faq-list">
+            <a class="faq-item" href="#stay">Book lodging</a>
+            <a class="faq-item" href="#transportation">Book transportation</a>
+            <a class="faq-item" href="#things-to-do">Book tours</a>
+            <a class="faq-item" href="#trip-plans">View trip plans</a>
+        </div>
+        </div>
+      </section>
+
+      <section id ="faqs">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <h2>Common visitor questions</h2>
+              <p>FAQs help fix the current problem of unclear information by answering common tourist questions before users leave the site.</p>
+            </div>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">Best time to visit</div>
+            <div class="faq-item">How to get around</div>
+            <div class="faq-item">Safety and emergency info</div>
+            <a class="faq-item" href="#booking">Booking and activity links</a>
+            <div class="faq-item">Airport and cruise arrival</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div>Taniti Island</div>
+        <div class="footer-links">
+          <span>Contact</span>
+          <span>Visitor Info</span>
+          <span>Social Media</span>
+          <span>Safety & Emergency Info</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
